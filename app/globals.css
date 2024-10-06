@@ -7,11 +7,20 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.light {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #0070f3;
+  --secondary: #ff4081;
+  --accent: #ffa726;
+}
+
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --primary: #3291ff;
+  --secondary: #ff79b0;
+  --accent: #ffb74d;
 }
 
 body {
